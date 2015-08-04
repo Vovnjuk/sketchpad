@@ -1,0 +1,17 @@
+#container {
+    height:600px;
+    width:600px;
+    background-color:yellow;
+    font-size:0;
+    margin: auto;
+
+}
+.pixel {
+    height:10px;
+    width:10px;
+    background-color:white;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    display:inline-block;
+}
