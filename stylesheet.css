@@ -1,17 +1,23 @@
 #container {
-    height:600px;
-    width:600px;
+    width: 100%;
     background-color:yellow;
     font-size:0;
+    margin: 30px auto;
+}
+#board {
     margin: auto;
-
+    background-color: black;
 }
 .pixel {
-    height:10px;
-    width:10px;
     background-color:white;
     position: relative;
-    margin: auto;
     border: 1px solid black;
     display:inline-block;
+}
+#panel {
+    float:left;
+}
+.color {
+    width: 51px;
+    height: 21px;
 }
